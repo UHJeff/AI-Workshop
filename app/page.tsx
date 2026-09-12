@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <header className="hero">
-        <h1>Jeff Hu</h1>
+        <h1>Jeff Hui</h1>
         <p className="tagline">I help UH startups</p>
       </header>
 
@@ -27,7 +27,7 @@ export default function Home() {
         <section className="section" id="about">
           <h2>About</h2>
           <p>
-            I&apos;m Jeff Hu, and I help UH startups get off the ground &mdash;
+            I&apos;m Jeff Hui, and I help UH startups get off the ground &mdash;
             whether that means teaching practical AI skills, connecting
             founders with the right people, or building the tools they need
             to move faster. I care about making startup and AI knowledge
@@ -50,7 +50,7 @@ export default function Home() {
 
       <footer className="footer">
         <p>
-          &copy; {currentYear} Jeff Hu
+          &copy; {currentYear} Jeff Hui
         </p>
       </footer>
     </>
