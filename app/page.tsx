@@ -24,17 +24,6 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="section" id="about">
-          <h2>About</h2>
-          <p>
-            I&apos;m Jeff Hui, and I help UH startups get off the ground &mdash;
-            whether that means teaching practical AI skills, connecting
-            founders with the right people, or building the tools they need
-            to move faster. I care about making startup and AI knowledge
-            accessible to the UH community.
-          </p>
-        </section>
-
         <section className="section" id="this-semester">
           <h2>This semester</h2>
           <ul className="project-list">
@@ -46,12 +35,24 @@ export default function Home() {
             ))}
           </ul>
         </section>
+
+        <section className="section" id="about">
+          <h2>About</h2>
+          <p>
+            I&apos;m Jeff Hui, and I help UH startups get off the ground &mdash;
+            whether that means teaching practical AI skills, connecting
+            founders with the right people, or building the tools they need
+            to move faster. I care about making startup and AI knowledge
+            accessible to the UH community.
+          </p>
+        </section>
       </main>
 
       <footer className="footer">
         <p>
           &copy; {currentYear} Jeff Hui
         </p>
+        <p>Built with Claude Code</p>
       </footer>
     </>
   );
